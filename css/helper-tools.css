@@ -1,0 +1,35 @@
+
+body.showGrid .global-helper-tools-wrapper {
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:0
+}
+
+body.showGrid .global-helper-tools-wrapper .container {
+    height: 100%;
+
+}
+body.showGrid .global-helper-tools-wrapper .container .row {
+    height: 100%;
+    background: rgba(255,0,0,0.1);
+}
+body.showGrid .global-helper-tools-wrapper .container .row .col-1 {
+    height: 100%;
+    background: rgba(255,0,0,0.2);
+    border: solid 1px rgba(255,0,0,0.3);
+}
+
+
+body.showGrid div[class="row"] {
+    outline: 0px solid rgba(255, 0, 0, 0.3);
+}
+
+body.showGrid div[class^="col-"] {
+    background-color: rgba(255, 0, 0, 0.2);
+    outline: 0px solid rgba(255, 0, 0, 0.3);
+    border-radius: 2px;
+}
+

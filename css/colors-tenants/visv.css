@@ -1,0 +1,74 @@
+:root {
+
+
+    /* VisualVest */
+    /* colors */
+    --brand-matrix-primitives-000: rgb(255, 255, 255);
+    --brand-matrix-primitives-001: rgb(2, 173, 216);
+    --brand-matrix-primitives-002: rgb(128, 230, 250 / 0.35);
+    --brand-matrix-primitives-003: rgb(255, 255, 255);
+    --brand-matrix-primitives-004: rgb(102, 102, 102);
+    --brand-matrix-primitives-005: rgb(135, 135, 135);
+    --brand-matrix-primitives-006: rgb(217, 217, 217);
+    --brand-matrix-primitives-007: rgb(255, 255, 255);
+    --brand-matrix-primitives-008: rgb(255, 255, 255);
+    --brand-matrix-primitives-009: rgb(255, 255, 255);
+    --brand-matrix-primitives-010: rgb(255, 255, 255);
+    --brand-matrix-primitives-011: rgb(0, 140, 185);
+    --brand-matrix-primitives-012: rgb(74, 144, 226);
+    --brand-matrix-primitives-013: rgb(184, 233, 134);
+    --brand-matrix-primitives-014: rgb(242, 208, 100);
+    --brand-matrix-primitives-015: rgb(208, 2, 27);
+    --brand-matrix-primitives-016: rgb(255, 255, 255 / 0.5);
+    --brand-matrix-primitives-017: rgb(255, 255, 255 / 0.1);
+    --brand-matrix-primitives-018: rgb(16, 41, 84);
+    --brand-matrix-primitives-019: rgb(246, 166, 35);
+    --brand-matrix-primitives-020: rgb(2, 173, 216);
+    --brand-matrix-primitives-021: rgb(128, 230, 251);
+    --brand-matrix-primitives-022: rgb(6, 209, 165);
+    --brand-matrix-primitives-023: rgb(150, 190, 15);
+    --brand-matrix-primitives-024: rgb(205, 220, 57);
+    --brand-matrix-primitives-025: rgb(200, 252, 147);
+    --brand-matrix-primitives-026: rgb(184, 183, 183);
+    --brand-matrix-primitives-027: rgb(230, 230, 230);
+    --brand-matrix-primitives-028: rgb(73, 144, 226);
+    --brand-matrix-primitives-029: rgb(82, 146, 192);
+    --brand-matrix-primitives-030: rgb(245, 117, 0);
+    --brand-matrix-primitives-031: rgb(230, 248, 213);
+    --brand-matrix-primitives-032: rgb(247, 196, 219);
+    --brand-matrix-primitives-033: rgb(248, 232, 28);
+    --brand-matrix-primitives-034: rgb(208, 192, 255);
+    --brand-matrix-primitives-035: rgb(128, 230, 251 / 0.65);
+    --brand-matrix-primitives-036: rgb(0, 175, 210 / 0.65);
+    --brand-matrix-primitives-037: rgb(242, 208, 100 / 0.65);
+    --brand-matrix-primitives-038: rgb(0, 175, 210 / 0.65);
+    --brand-matrix-primitives-039: rgb(245, 117, 0 / 0.65);
+    --brand-matrix-primitives-040: rgb(6, 209, 165 / 0.65);
+    --brand-matrix-primitives-041: rgb(150, 190, 15 / 0.65);
+    --brand-matrix-primitives-042: rgb(205, 220, 57 / 0.65);
+    --brand-matrix-primitives-043: rgb(121, 221, 121 / 0.5);
+    --brand-matrix-primitives-044: rgb(184, 183, 183 / 0.65);
+    --brand-matrix-primitives-045: rgb(230, 230, 230 / 0.65);
+    --brand-matrix-primitives-046: rgb(245, 245, 245);
+    --brand-matrix-primitives-047: rgb(255, 255, 255);
+    --brand-matrix-primitives-048: rgb(255, 255, 255);
+    --brand-matrix-primitives-049: rgb(255, 255, 255);
+    --brand-matrix-primitives-050: rgb(255, 255, 255);
+    --brand-matrix-primitives-100: rgb(255, 255, 255);
+    --brand-matrix-primitives-101: rgb(255, 255, 255);
+    --brand-matrix-primitives-102: rgb(255, 255, 255);
+    --ui-tokens-background-light: var(--brand-matrix-primitives-046);
+    --ui-tokens-background-note: var(--brand-matrix-primitives-027);
+    --ui-tokens-primary-accent: var(--brand-matrix-primitives-011);
+    --ui-tokens-primary-ui: var(--brand-matrix-primitives-018);
+    --ui-tokens-graph-graph-color-01: var(--brand-matrix-primitives-023);
+    --ui-tokens-graph-graph-color-02: var(--brand-matrix-primitives-012);
+    --ui-tokens-graph-graph-color-03: var(--brand-matrix-primitives-014);
+    --ui-tokens-graph-graph-color-04: var(--brand-matrix-primitives-026);
+    --ui-tokens-semantics-error: var(--brand-matrix-primitives-015);
+    --ui-tokens-semantics-success: var(--brand-matrix-primitives-023);
+    --ui-tokens-semantics-warning: var(--brand-matrix-primitives-030);
+  
+
+
+}

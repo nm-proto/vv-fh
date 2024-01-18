@@ -1,0 +1,55 @@
+.accordion-button {
+    color: #575757;
+    padding: 1rem 0
+
+}
+
+.accordion-button::after {
+     width: var(--bs-accordion-btn-icon-width);
+     height: var(--bs-accordion-btn-icon-width);
+     margin-left: initial;
+     margin-right: 1rem;
+     content: "";
+     background-image: var(--bs-accordion-btn-icon);
+     background-image: none;
+     background-repeat: no-repeat;
+     background-size: var(--bs-accordion-btn-icon-width);
+     transition: var(--bs-accordion-btn-icon-transition);
+     order: -1;
+     transform: rotate(-90deg);
+     font-family: "Font Awesome 6 Pro";
+     line-height: 1.75rem;
+     width: 1.75rem;
+     height:1.75rem;
+     font-size: 1.75rem;
+     font-weight: 200;
+     color: var(--ui-tokens-primary-ui);
+ }
+
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg);
+    background-image: none;
+    content: "";
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: var(--ui-tokens-primary-ui);
+    font-weight: bold;
+    box-shadow: none;
+}
+
+ .accordion-button:focus {
+     border-color: rgba(var(--color-primary),0.2);
+     outline: 0;
+     box-shadow: 0 0 0 0.125rem rgba(var(--color-primary),0);
+ }
+
+ .accordion-body {
+     color: rgba(var(--color-text-default),1);
+     padding: 0.5rem 0rem 1rem;
+     
+ }

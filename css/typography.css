@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'protodaysblocksmedium';
+    src: url('../typefaces/protodaysblocks_1-webfont.woff2') format('woff2'),
+    url('../typefaces/protodaysblocks_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body, input, button {
+    font-family:
+            'Inter', sans-serif,
+            '-apple-system',
+            'BlinkMacSystemFont',
+            '"Segoe UI"',
+            'Roboto',
+            'Helvetica Neue',
+            'Arial',
+            'sans-serif',
+            'Apple Color Emoji',
+            'Segoe UI Emoji',
+            'Segoe UI Symbol',
+            sans-serif;
+    line-height: 140%;
+    color: var(--neutral--900);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeSpeed;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    font-weight: 500;
+}
+
+
+
+.display-1 {
+    font-weight: 500;
+    line-height: 110%;
+}
+
+@media (min-width: 768px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+
+}
