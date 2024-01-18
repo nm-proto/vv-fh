@@ -95,8 +95,12 @@
                 <p>Bei uns triffst du auf erfahrene Finanzexpert:innen, die nicht nur ihr Fachgebiet beherrschen, sondern auch einen persönlichen Bezug zu deinen Bedürfnissen herstellen. Mache jetzt den ersten Schritt:</p>
                 <p style="font-weight: 600">Expert:in finden →</p>
             </div>
-
         </div>
+    </div>
+    <div class="row pt-5">
+        <div class="col-12 col-md-12 col-xl-3">Passende Finanzexpert:innen finden</div>
+        <div class="col-12 col-md-6 col-xl-6">Video 1</div>
+        <div class="col-12 col-md-6 col-xl-3">Video 2</div>
     </div>
 </main>
 
